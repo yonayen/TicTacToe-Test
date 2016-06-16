@@ -40,6 +40,7 @@
     
     //Keeps track of player's turn
     var computeContext = function() {
+        // USING conditional operator "condition ? value-if-true : value-if-false" for the first time.
         return (turns % 2 == 0) ? context.player1 : context.player2;
     }
     
